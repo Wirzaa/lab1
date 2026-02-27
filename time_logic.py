@@ -1,0 +1,6 @@
+x = input("Enter total number of seconds:")
+x = int(x)
+hours = (x//3600)
+minutes = ((x%3600)//60)
+seconds = ((x%3600)%60)
+print(str(x) + " seconds is " + str(hours) +" hours, " + str(minutes) + " minutes and " + str(seconds) +  " seconds.")
